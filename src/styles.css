@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+:root {
+  --primary-color: #007fff;
+  --dark-gray: #6b7280;
+  --off-white: #f3f4f6;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  padding: 3rem;
+  background-color: var(--primary-color);
+  color: white;
+  margin-top: 0;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.intro {
+  display: block;
+  margin: 3rem auto;
+  width: 50rem;
+  max-width: 80%;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.buttons {
+  width: 8rem;
+  max-width: 20%;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.list-container {
+  border: 1px solid var(--primary-color);
+  text-align: left;
+  width: 40rem;
+  margin: 2rem auto;
+  max-width: 80%;
+  list-style-type: none;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.one-music-block {
+  margin: 1rem;
+}
+
+.music-title {
+  margin: 1rem;
+  font-size: 1.5rem;
+  color: red;
+}
+
+.closing-line {
+  display: block;
+  margin: 3rem auto;
+  width: 40rem;
+  max-width: 80%;
+  text-align: start;
+}
+
+.footer-container {
+  background-color: #d97706;
+  color: white;
+  border-radius: 1rem 1rem 0 0;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+.selected {
+  font-weight: 600;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+.container {
+  padding: 0rem 1rem; /**Paddin:TRBL,Top Right Bottom Left**/
+}
+.list-non-bullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
